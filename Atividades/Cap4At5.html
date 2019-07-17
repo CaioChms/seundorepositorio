@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+// Escreva um script que solicite as 3 notas de um aluno e em 
+// seguida calcule o valor da média das notas. Caso a média seja 
+// maior ou igual a 9 escreva a mensagem “Conceito A”, caso a nota 
+// seja menor que 9 e maior ou igual a 7 escreva a mensagem “Conceito B”,
+// caso a nota seja menor que 7 e maior ou igual a 5 escreva a mensagem “Conceito C”, 
+// se a nota for menor que 5 escreva a mensagem “Conceito Insuficiente”;
+  
+let nota1 = parseInt (window.prompt ("Informe a nota da sua primeira prova"))
+let nota2 = parseInt (window.prompt ("Informe a nota da sua segunda prova"))
+let nota3 = parseInt (window.prompt ("Informe a nota da sua terceira prova"))
+let media = parseInt (nota1+nota2+nota3)/3
+
+    if (media >= 9){
+        alert ("Conceito A")
+        }else if (media<9 && media>=7){
+            alert ("Conceito B")
+        }else if (media<7 && media>=5){
+            alert ("Conceito C")
+        }else {alert("conceito insuficiente")}
+
+
+    
+
+    </script>
+</body>
+</html>

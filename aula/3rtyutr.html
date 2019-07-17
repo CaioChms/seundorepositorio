@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let listaProdutosAcima = [];
+        let listaProdutosAbaixo = [];
+        let listaProduto = [];
+        for (let i = 0; i < 3; i++) {
+            let produto = {};
+            produto.nome = window.prompt("Digite seu produto");
+            produto.valor = parseInt(window.prompt("Digite o valor da sua mercadoria"));
+            listaProduto.push(produto);
+            total += produto.valor;
+        }
+        let media = total / listaProduto.length;
+        for (let i = 0; i < listaProduto.length; i++) {
+            if (listaProduto[i].valor >= media);
+            listaProdutosAcima.push(listaProduto[i]);
+            if (listaProduto[i].valor < media);
+            listaProdutosAcima.push(listaProduto[i]);
+        }
+        document.write(`<p>A media é ${media}</p>`);
+        listaProdutosAbaixo.forEach(produto => {
+            document.write(`<p>O produto ${produto.nome} está acima da média e o seu preço é ${produto.valor}</p>`);
+        });
+        listaProdutosAbaixo.forEach(produto => {
+            document.write(`<p>O produto ${produto.nome} está abaixo da média e o seu preço é ${produto.valor}</p>`)
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script> 
+// Dado o script abaixo:
+// let valorA = true;
+// let valorB = true;
+// let valorC = false;
+// Escreva o resultado das seguintes comparações:
+// a. valorA E valorB
+// b. valorA E valorB E valorC
+// c. valorA E valorC
+// d. valorB E valorC
+// e. valorA OU valorB
+// f. valorB OU ValorC
+// g. valorA OU valorB ou valorC
+// h. valorC OU valorC
+
+let vA = true;
+let vB = true;
+let vC = false;
+
+document.write (`<p>1 ${vA && vB}</p>`);
+document.write (`<p>2 ${vA && vB && vC}</p>`);
+document.write (`<p>3 ${vA && vC}</p>`);
+document.write (`<p>4 ${vB && vC}</p>`);
+document.write (`<p>5 ${vA || vB}</p>`);
+document.write (`<p>6 ${vB || vC}</p>`);
+document.write (`<p>7 ${vA || vB || vC}</p>`);
+document.write (`<p>8 ${vC || vC}</p>`);
+    
+    
+    
+    </script>
+</body>
+</html>

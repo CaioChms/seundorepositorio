@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    let numero1 = parseInt (window.prompt ("Informe a nota da sua primeira prova"))
+    let numero2 = parseInt (window.prompt ("Informe a nota da sua segunda prova"))
+    let numero3 = parseInt (window.prompt ("Informe a nota da sua terceira prova"))
+    let result = parseInt (numero1+numero2+numero3)/3
+    if (result >= 9){
+        alert ("Conceito A")
+        }else if (result<9 && result>=7){
+            alert ("Conceito B")
+        }else if (result<7 && result>=5){
+            alert ("Conceito C")
+        }else {alert("conceito insuficiente")}
+
+
+    </script>
+</body>
+</html>

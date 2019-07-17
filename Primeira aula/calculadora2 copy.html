@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculaora</title>
+</head>
+<body>
+    <script>
+    let numero = parseInt (window.prompt ("Digite um número"));
+    let numero1 = parseInt (window.prompt ("Digite outro numero"));
+    let op = window.prompt ("1-Multiplicação , 2-Adição , 3-Subtração , 4-Divisão");
+switch (op) {
+
+        case 1: let resultado1 = parseInt (numero*numero1)
+        document.write ("<h1>O resultado da sua operação é "+resultado1+"</h1>")
+        break;
+        case 2: let resultado2 = parseInt (numero+numero1) 
+        document.write ("<h1>O resultado da sua operação é "+resultado2+"</h1>")       
+        break;
+        case 3: let resultado3 = parseInt (numero-numero1)
+        document.write ("<h1>O resultado da sua operação é "+resultado3+"</h1>")
+        break;
+        case 4: let resultado4 = parseInt (numero/numero1)
+        document.write ("<h1>O resultado da sua operação é "+resultado4+"</h1>")
+        break;
+    }
+ 
+    </script>
+</body>
+</html>

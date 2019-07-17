@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    function Pessoa(a, b){//construtor
+        this.nome = a;
+        this.idade = b;
+        return this;
+    }
+    let pessoa = new Pessoa ("Gustavo", 27); // instanciar uma classe    
+    document.write (`o nome da pessoa é ${pessoa.nome} e a idade é ${pessoa.idade}`);
+    
+    </script>
+</body>
+</html>

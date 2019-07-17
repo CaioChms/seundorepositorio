@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Interagindo com o usuário</title>
+</head>
+
+<body>
+    <script>
+        function EscreveDados(nome,email,telefone){
+            let mensagem = `<p>Nome:${nome}</p>
+                            <p>Email:${email}</p>
+                            <p>Telefone:${telefone}</p>`
+            document.write(mensagem)
+        }
+        EscreveDados(window.prompt ('Escreva seu nome'),window.prompt ('Escreva seu Email'),window.prompt ('Escreva seu Telefone'));
+        EscreveDados(window.prompt ('Escreva seu nome'),window.prompt ('Escreva seu Email'),window.prompt ('Escreva seu Telefone'));
+        EscreveDados(window.prompt ('Escreva seu nome'),window.prompt ('Escreva seu Email'),window.prompt ('Escreva seu Telefone'));
+    </script>
+</body>
+
+</html>

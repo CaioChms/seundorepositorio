@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+//Crie um script que solicite um número ao usuário e em seguida escreva
+//o resultado das comparações abaixo com o número informado.
+// a. número < 10;
+// b. número <= 100;
+// c. número == 20;
+// d. número != 50;
+// e. número > 30;
+// f. número >= 25;
+
+// pegar o numero, fazer as comparações e mostrar.
+
+    let numero = parseInt (window.prompt ("Digite um numero"));
+    let resultado1 = numero < 10
+    let resultado2 = numero <= 100
+    let resultado3 = numero == 20
+    let resultado4 =  numero != 50 // não igual a 50
+    let resultado5 = numero > 30 
+    let resultado6 = numero >= 25 
+
+    document.write (`<p>Seu numero é menor que 10? ${resultado1}</p>`)
+    document.write (`<p>Seu numero é menor ou igual a 100? ${resultado2}</p>`)
+    document.write (`<p>Seu numero é igual a 20? ${resultado3}</p>`)
+    document.write (`<p>Seu numero é diferente de 50? ${resultado4}</p>`)
+    document.write (`<p>Seu nuemro é maior que 30? ${resultado5}</p>`)
+    document.write (`<p>Seu numero é maior ou igual a 25? ${resultado6}</p>`)    
+    
+    </script>
+</body>
+</html>
